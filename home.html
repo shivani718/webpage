@@ -1,0 +1,41 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Navigation Bar - Easy Tutorials</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+     <div class="nav-bar">
+         <img src="logo.jpeg">
+         <div class="menu-right">
+             <span onClick="myFunction()">&#9776;</span>
+            <ul id="menu">
+             <li><a href="home.html" target="_blank">HOME</a></li>    
+             <li><a href="books.html" target="_blank">SERVICES</a></li>    
+             <li><a href="blogs.html" target="_blank">BLOGS</a></li>    
+             <li><a href="about.html" target="_blank">ABOUT</a></li>    
+             <li><a href="contacts.html" target="_blank">CONTACT</a></li>  
+             <li><a href="logout.html" target="_blank">LOGOUT</a></li>
+             </ul>
+         </div>
+     
+    
+     </div>   
+    
+    <script>
+        function myFunction(){
+           var x = document.getElementById("menu"); 
+            
+            if(x.style.display == "block")
+            {
+                x.style.display = "none";
+            }
+            else{
+                x.style.display = "block";
+            }
+        }
+    </script>
+    <p class="homepx">Gainsight® Launches Gainsight PX, a Complete Product Experience Platform to Drive Subscription Growth
+B2B Product Teams Can Leverage Deep Product Insights and Personalize In-App Engagements to Build Products Customers Love to Use.</p>
+</body>
+</html>
